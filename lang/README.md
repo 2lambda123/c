@@ -7,4 +7,3 @@ gcc main.c -o bin
 ./bin
 # Hello, World!
 ```
-
