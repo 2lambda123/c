@@ -17,10 +17,10 @@ int main(int argc, char *argv[]) {
     char message[] = "Hello World!";
 
     // 서버 소켓 생성
-    if (argc != 2) {
-        printf("Usage: %s <port>\n", argv[0]);
-        exit(1);
-    }
+//    if (argc != 2) {
+//        printf("Usage: %s <port>\n", argv[0]);
+//        exit(1);
+//    }
 
     serv_sock = socket(PF_INET, SOCK_STREAM, 0);
     if (serv_sock == -1) {
